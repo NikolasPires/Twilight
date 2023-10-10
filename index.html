@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Twilight</h1>
+        </div>
+    </header>
+    <main>
+        <section class="estacao1">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XrPV33GGazw?si=CxckjxC6s0WiAjNB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="dMore">Descubra mais &#9660;</div>
+            <div class="eclipseDraw">
+                <div class="draw">
+                    <div class="anular">
+                        <div class="anularCircle">
+                        </div>
+                    </div>
+                    <p>Eclipse Anular</p>
+                </div>
+                <div class="draw">
+                    <div class="solarTotal">
+                        <div class="circle"></div>
+                    </div>
+                    <p>Eclipse Solar Total</p>
+                </div>
+                <div class="draw">
+                    <div>
+                        <div class="parcial">
+                        </div>
+                        <div class="parcialCircle"></div>
+                    </div>
+                    <p>Eclipse Parcial</p>
+                </div>
+            </div>
+            <section class="teste1 teste">
+        
+                <h2 class="pergunta1 pergunta">Qual é a definição de eclipse?</h2>
+                <div class="alternativas">
+                    <button class="resposta1 resposta">Fenômeno onde um astro fica na sombra de outro.</button>
+                    <button class="resposta2 resposta">É o movimento constante do Sol ao redor da Terra</button>
+                    <button class="resposta3 resposta">Evento que ocorre quando um cometa passa pela Terra</button>
+                </div>
+            </section>
+            <section class="teste2 teste">
+                <h2 class="pergunta2 pergunta">Por que somente algumas pessoas enxergam o eclipse solar?</h2>
+                <div class="alternativas">
+                    <button class="resposta1Test2 resposta">A visibilidade do eclipse solar é aleatória</button>
+                    <button class="resposta2Test2 resposta">A visibilidade de um eclipse solar depende da localização geográfica.</button>
+                    <button class="resposta3Test2 resposta">Somente astrônomos profissionais têm acesso a tecnologia especial para ver eclipses solares. </button>
+                </div>
+            </section>
+            <section class="teste3 teste">
+                <h2 class="pergunta3 pergunta">Qual é a diferença entre um eclipse Solar e um Lunar?</h2>
+                <div class="alternativas">
+                    <button class="resposta1Test3 resposta">Um Eclipse Solar ocorre quando a Lua esconde o sol enquanto no Lunar a Lua é escondida pela Terra</button>
+                    <button class="resposta2Test3 resposta">A diferença entre um eclipse solar e um lunar é apenas a posição da Lua no céu.</button>
+                    <button class="resposta3Test3 resposta">Eclipses solares e lunares são termos diferentes para o mesmo fenômeno de bloqueio da luz do Sol pela Lua</button>
+                </div>
+            </section>
+            <section class="estacao2">
+                <h2>Resolva o quebra-cabeça</h2>
+                <div class="img">
+                    <img src="images/EclipseLunar-Parcial.png" alt="" srcset="" draggable="false" class="imgDrag" id="parcial">
+                    <img src="images/EclipseLunarPenumbral.png" alt="" draggable="false" class="imgDrag" id="penumbral">
+                    <img src="images/EclipseLunarTotal.png" alt="" draggable="false" class="imgDrag" id="total">
+                </div>
+                <div class="kanban">
+                    <div class="column c4">
+                      <div class="item" draggable="true" id="penumbral">Penumbral</div>
+                      <div class="item" draggable="true" id="parcial">Parcial</div>
+                      <div class="item" draggable="true" id="total">Total</div>
+                </div>
+            </section>
+            <div class="caca-palavra">
+                <h2>Ache palavras sobre o Eclipse</h2>
+                <div id="word-search-game"></div>
+            </div>
+            <footer>
+                feito com &hearts; por equipe Eclipse
+            </footer>
+        </section>
+       
+        <p id="pontos"></p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
