@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-style: none;
+    color: white;
 }
 :root {
     --font-padrao:  'Cinzel', serif;
@@ -295,7 +297,7 @@ div.caca-palavra {
   }
   
   .selected {
-    background-color: rgb(69, 233, 124);
+    background-color: rgb(16, 77, 36);
   }
 
 footer {
@@ -303,10 +305,17 @@ footer {
     right: 0;
     width: 100vw;
     height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 40px;
     background-color: #26110F;
     border-top: 2px white solid;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
